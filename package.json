@@ -1,0 +1,32 @@
+{
+  "name": "natours",
+  "version": "1.0.0",
+  "description": "learning mongoDB mongoose nodeJS",
+  "main": "app.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "debug": "ndb server.js"
+  },
+  "author": "piyush kumar",
+  "license": "ISC",
+  "dependencies": {
+    "@babel/polyfill": "^7.12.1",
+    "axios": "^0.21.1",
+    "bcryptjs": "^2.4.3",
+    "cookie-parser": "^1.4.5",
+    "dotenv": "^10.0.0",
+    "express": "^4.17.1",
+    "express-mongo-sanitize": "^2.1.0",
+    "express-rate-limit": "^5.3.0",
+    "helmet": "^4.6.0",
+    "hpp": "^0.2.3",
+    "jsonwebtoken": "^8.5.1",
+    "multer": "^1.4.2",
+    "nodemailer": "^6.6.3",
+    "stripe": "^8.168.0",
+    "xss-clean": "^0.1.1"
+  },
+  "devDependencies": {
+    "parcel-bundler": "^1.12.5"
+  }
+}
